@@ -5,7 +5,7 @@
 @font-face {
   font-family: 'PoetsenOne';
   src: url('../PoetsenOne-Regular.ttf'); /* IE9 Compat Modes */
-  src: url('../PoetsenOne-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  	   url('../PoetsenOne-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../PoetsenOne-Regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('../PoetsenOne-Regular.woff') format('woff'), /* Pretty Modern Browsers */
        url('../PoetsenOne-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
