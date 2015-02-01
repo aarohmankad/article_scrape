@@ -1,0 +1,116 @@
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+@font-face {
+  font-family: 'PoetsenOne';
+  src: url('../PoetsenOne-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+body {
+	font-family: "PoetsenOne";
+	background-color: #ececec;
+	height: 100%;
+}
+.navbar{
+	z-index: 3;
+	background-color: #f57c00;
+	border-radius:0px;
+	box-shadow: 3px 5px 5px #dc6f00;
+	height: 40px;
+	margin:0px;
+	border:0px;
+}
+
+.jumbotron {
+	background-color: #ff9800;
+	width:100%;
+	margin:0px;
+	min-height:34%;
+	font-family: "PoetsenOne";
+	box-shadow: 3px 6px 5px #ccc;
+	position: relative;
+	z-index: 2;
+}
+
+.row {
+	background-color: #ececec;
+	margin:0px;
+
+}
+
+.form-group {
+	margin:0px;
+	width: 120px;
+	position: relative;
+    left: 45%;
+    bottom: 2%;
+    position: absolute;
+
+}
+
+.btn {
+	border-radius: 20px;
+	height: 25px;
+	background-color: #55ACEE;
+	position: relative;
+	left: 53.5%;
+	bottom: 4%;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+/*{
+	text-decoration: none;
+	color: #2196F3;
+	/*font-family: 'Lato'; */
+	/*font-weight: 400;
+} */
+
+a:hover
+{
+	text-decoration: none;
+	color: #64B5F6;
+}
+
+h2
+{
+	display: inline-block;
+	padding-right: 15px;
+}
+
+#articles {
+	margin-top: 30px;
+}
+
+#articles small
+{
+	font-size: 16px;
+	/*font-family: 'Lato'; */
+	font-weight: 300;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+
+}
+
+#articles > .row
+{
+	position: relative;
+	font-size: 26px;
+	height: 55px;
+} 
+
+#time_input {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#option_picker {
+	margin-left: 5px;
+}

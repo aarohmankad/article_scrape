@@ -1,0 +1,14 @@
+{
+  "name"         : "Lucyd",
+  "version"      : "0.0.1",
+  "description"  : "Scrape newspaper api.",
+  "main"         : "server.js",
+  "author"       : "Aaroh Mankad",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+    "url"        : "latest",
+    "querystring": "latest"
+  }
+}
